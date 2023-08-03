@@ -12,7 +12,7 @@ public class dockerTest extends base
     }
     
     @Test(priority=2)
-    public void dockerCICD_1()
+    public void dockerCICDtesting()
     {
     	init();
         System.out.println("learning first CI/CD");
