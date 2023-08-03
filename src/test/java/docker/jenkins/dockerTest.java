@@ -1,5 +1,6 @@
 package docker.jenkins;
 
+import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 public class dockerTest extends base
@@ -15,6 +16,7 @@ public class dockerTest extends base
     public void learn()
     {
     	init();
+        driver.findElement(By.id("APjFqb")).sendKeys("hi");
         System.out.println("learning first CI/CD");
         System.out.println("===================");
     }
