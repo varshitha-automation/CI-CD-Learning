@@ -4,14 +4,14 @@ import org.testng.annotations.Test;
 
 public class dockerTest extends base
 {
-    @Test
+    @Test(priority=1)
     public void dockerCICD()
     {
     	init();
         System.out.println("learning CI/CD");
     }
     
-    @Test
+    @Test(priority=2)
     public void dockerCICD_1()
     {
     	init();
