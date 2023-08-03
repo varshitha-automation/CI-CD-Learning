@@ -12,7 +12,7 @@ public class base {
 	public static void init()
 	{
 		System.setProperty("webdriver.chrome.driver", "D:\\Automation\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
+		driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(9, TimeUnit.SECONDS);
         driver.get("https://www.google.com");
