@@ -10,4 +10,11 @@ public class dockerTest extends base
     	init();
         System.out.println("learning CI/CD");
     }
+    
+    @Test
+    public void dockerCICD_1()
+    {
+    	
+        System.out.println("learning first CI/CD");
+    }
 }
