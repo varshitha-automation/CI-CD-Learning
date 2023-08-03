@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-03T16:46:27 IST" name="Default suite" finished-at="2023-08-03T16:46:32 IST" duration-ms="4493">
+  <suite started-at="2023-08-03T17:27:54 IST" name="Default suite" finished-at="2023-08-03T17:27:58 IST" duration-ms="3629">
     <groups>
     </groups>
-    <test started-at="2023-08-03T16:46:27 IST" name="Default test" finished-at="2023-08-03T16:46:32 IST" duration-ms="4493">
+    <test started-at="2023-08-03T17:27:54 IST" name="Default test" finished-at="2023-08-03T17:27:58 IST" duration-ms="3629">
       <class name="docker.jenkins.dockerTest">
-        <test-method signature="dockerCICD()[pri:0, instance:docker.jenkins.dockerTest@a3d8174]" started-at="2023-08-03T16:46:27 IST" name="dockerCICD" finished-at="2023-08-03T16:46:32 IST" duration-ms="4468" status="PASS">
+        <test-method signature="dockerCICD()[pri:0, instance:docker.jenkins.dockerTest@a3d8174]" started-at="2023-08-03T17:27:54 IST" name="dockerCICD" finished-at="2023-08-03T17:27:58 IST" duration-ms="3598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dockerCICD -->
